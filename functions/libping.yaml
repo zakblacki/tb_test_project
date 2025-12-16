@@ -1,0 +1,15 @@
+id: QmNM79d9VsMBN6FigAp9ugdGm3KGPWqL7dtUoYdreXXfFV
+description: ""
+tags: []
+source: libraries/test_example
+trigger:
+    type: https
+    method: GET
+    paths:
+        - /lib/ping
+domains:
+    - GeneratedDomain
+execution:
+    timeout: 1s
+    memory: 10MB
+    call: ping
